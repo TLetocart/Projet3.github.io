@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.26.7"
+  },
+  "deprecated": false,
+  "description": "A pure JavaScript implementation of Sass.",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "license": "MIT",
+  "name": "Projet3",
+  "scripts": {
+    "build": "sass style.scss style.css",
+    "watch": "sass --watch style.scss style.css"
+  }
+}

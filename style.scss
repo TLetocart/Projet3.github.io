@@ -1,0 +1,70 @@
+body{
+	margin : 0;
+}
+
+
+header{
+	background-color: green;
+	a {
+		text-align: center;
+		display: inline-block;;
+	}
+	.logo{
+		width : 20%;
+	}
+}
+
+
+.main{
+	flex-grow: 1;
+	.menus .row{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.menu{
+		width: 20%;
+		padding: 20px 20px;
+		height: 100px;
+		margin: 10px;
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #fcdfdb;
+	}
+	
+
+
+
+	button{
+		display: flex;
+		margin: auto;
+		background-color: green;
+		border: 0;
+		color: yellow;
+		padding : 10px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+}
+
+footer{
+	background : green;
+	padding : 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+	a.contact{
+		flex-direction: column;
+		text-align: right;
+		display: inline-block;
+	}
+}
