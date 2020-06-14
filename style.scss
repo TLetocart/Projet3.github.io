@@ -15,6 +15,12 @@ header{
 }
 
 
+img{
+	margin-top: 10px;
+	margin-bottom: 2px;
+	width: 20%;
+}
+
 .main{
 	flex-grow: 1;
 	.menus .row{
@@ -36,7 +42,6 @@ header{
 		justify-content: center;
 		background-color: #fcdfdb;
 	}
-	
 
 
 
