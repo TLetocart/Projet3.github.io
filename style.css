@@ -5,18 +5,16 @@ body {
 header {
   background-color: green;
 }
-header a {
+header .oh {
   text-align: center;
   display: inline-block;
-}
-header .logo {
-  width: 20%;
+  padding: 20px;
 }
 
 img {
   margin-top: 10px;
   margin-bottom: 2px;
-  width: 20%;
+  width: 30%;
 }
 
 .main {
@@ -29,9 +27,9 @@ img {
   justify-content: center;
 }
 .main .menu {
-  width: 20%;
+  width: 30%;
   padding: 20px 20px;
-  height: 100px;
+  height: 200px;
   margin: 10px;
   display: flex;
   text-align: center;
@@ -49,20 +47,32 @@ img {
   border-radius: 5px;
   text-align: center;
 }
+.main .but {
+  padding-bottom: 60px;
+}
+.main .p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+.main .p2 img {
+  width: 80%;
+  padding-bottom: 60px;
+}
 
 footer {
   background: green;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-footer a.contact {
-  flex-direction: column;
-  text-align: right;
-  display: inline-block;
+footer a {
+  color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
