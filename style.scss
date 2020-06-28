@@ -1,10 +1,21 @@
+@font-face {
+    font-family:'devonshire';
+    src: url('/fonts/Devonshire-FontZillion/devonshire-regular-webfont.eot');
+    src: url('/fonts/Devonshire-FontZillion/devonshire-regular-webfont.eot') format('embedded-opentype'),
+         url('/fonts/Devonshire-FontZillion/devonshire-regular-webfont.woff') format('woff'),
+         url('/fonts/Devonshire-FontZillion/devonshire-regular-webfont.ttf') format('truetype'),
+         url('/fonts/Devonshire-FontZillion/devonshire-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
 	margin : 0;
 }
 
 
 header{
-	background-color: green;
+	background-color: #579c87;
 	.oh {
 		text-align: center;
 		display: inline-block;
@@ -39,6 +50,13 @@ img{
 		flex-direction: column;
 		justify-content: center;
 		background-color: #fcdfdb;
+		box-shadow: 0 0 10px #c8c8c8;
+
+		.note{
+			a{
+				font-family:devonshire, arial;
+			}
+		}
 	}
 
 
@@ -46,9 +64,9 @@ img{
 	button{
 		display: flex;
 		margin: auto;
-		background-color: green;
+		background-color: #579c87;
 		border: 0;
-		color: yellow;
+		color: #fdca45;
 		padding : 10px;
 		border-radius: 5px;
 		text-align: center;
@@ -77,7 +95,7 @@ img{
 }
 
 footer{
-	background : green;
+	background : #579c87;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	position: fixed;
@@ -87,6 +105,8 @@ footer{
 	justify-content: space-around;
 
 	a{
-		color: yellow;
+		color: #fdca45;
 	}
 }
+
+
