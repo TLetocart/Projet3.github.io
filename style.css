@@ -73,10 +73,11 @@ img {
   justify-content: center;
 }
 .main .menu {
-  width: 30%;
+  width: 280px;
   padding: 20px 20px;
-  height: 300px;
-  margin: 10px;
+  height: 375px;
+  margin: 30px;
+  margin-top: 40px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -174,6 +175,43 @@ img {
   padding-bottom: 60px;
 }
 
+
+.menu + .deux{
+  background-color: #d1f8fa;
+}
+
+.row .tres{
+  background-color: #e2fcfd;
+}
+
+.menu + .quatre{
+  background-color: #f8fbfb;
+}
+
+.note img{
+  width: 20%;
+}
+
+
+.apalette {
+  width: 65%;
+  padding: 20px 20px;
+  height: 375px;
+  margin: 30px;
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fcdfdb;
+  box-shadow: 0 0 10px #c8c8c8;
+}
+
+
+button{
+  font-family: "bmontserrat", arial;
+}
+
 footer {
   background: #579c87;
   padding-top: 15px;
@@ -183,9 +221,12 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  font-family: "bmontserrat", arial;
 }
+
 footer a {
   color: #fdca45;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
