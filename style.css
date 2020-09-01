@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "schola";
+  src: url("fonts/TeXGyreSchola-FontZillion/texgyreschola-regular.otf");
+  font-style: normal;
+}
 
 @font-face {
   font-family: "croissant";
@@ -85,16 +90,24 @@ img {
   background-color: #fcdfdb;
   box-shadow: 0 0 10px #c8c8c8;
 }
+
+.main .menu .note img {
+  display: block;
+  margin: auto;
+}
+
 .main .menu .note a {
   font-family: "devonshire", arial;
-  font-size : 40px;
+  font-size : 30px;
   text-decoration: none;
   color: black;
 }
 
-.main .menu .note h5 {
+.main .menu .note span {
+  display: block;
   font-family: "Segoe", arial;
   font-size : 40px;
+  font-weight: bold;
   text-decoration: none;
   color: black;
 }
@@ -102,16 +115,19 @@ img {
 
 .main .menu .chic a {
   font-family: "croissant", arial;
-  font-size : 35px;
+  font-size : 20px;
   background: linear-gradient(150deg, #e38913, #af6ca6, #8f5aff);
   color: transparent;
   -webkit-background-clip: text;
 }
 
-.main .menu .chic h5 {
-  font-family: "Segoe", arial;
+.main .menu .chic span {
+  display: block;
+  font-family: "schola", arial;
   font-size : 35px;
-  background: linear-gradient(150deg, #e38913, #af6ca6, #8f5aff);
+  margin-top: 20px;
+  font-weight: bold;
+  background: #c77412;
   color: transparent;
   -webkit-background-clip: text;
 }
@@ -124,7 +140,7 @@ img {
   -webkit-background-clip: text;
 }
 
-.main .menu .delice h5 {
+.main .menu .delice span {
   font-family: "Segoe", arial;
   font-size : 35px;
   background: linear-gradient(150deg, #0945b5, #31b1fa);
@@ -141,7 +157,7 @@ img {
   -webkit-background-clip: text;
 }
 
-.main .menu .palette h5 {
+.main .menu .palette span {
   font-family: "Segoe", arial;
   font-size : 35px;
   background: linear-gradient(150deg, #139b4c, #74fb50);
@@ -170,7 +186,7 @@ img {
   align-items: center;
   font-size: 12px;
 }
-.main .p2 img {
+.main .p2 img.note {
   width: 80%;
   padding-bottom: 60px;
 }
@@ -193,12 +209,37 @@ img {
 }
 
 
-.apalette {
-  width: 65%;
+.apalette{
+  width: 550px;
   padding: 20px 20px;
-  height: 375px;
-  margin: 30px;
-  margin-top: 10px;
+  height: 750px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #f8fbfb;
+  box-shadow: 0 0 10px #c8c8c8;
+}
+
+.adelice{
+  width: 450px;
+  padding: 20px 20px;
+  height: 650px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2fcfd;
+  box-shadow: 0 0 10px #c8c8c8;
+}
+
+
+.alanote{
+  width: 450px;
+  padding: 20px 20px;
+  height: 650px;
+  margin-bottom: 20px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -208,13 +249,28 @@ img {
 }
 
 
+.achic{
+  width: 450px;
+  padding: 20px 20px;
+  height: 650px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d1f8fa;
+  box-shadow: 0 0 10px #c8c8c8;
+}
+
+
+
 button{
   font-family: "bmontserrat", arial;
 }
 
 footer {
   background: #579c87;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
   position: fixed;
   bottom: 0;
@@ -227,6 +283,72 @@ footer {
 footer a {
   color: #fdca45;
   text-decoration: none;
+}
+
+header a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px){
+  .main .menus .row {
+    flex-direction: column;
+  }
+}
+
+
+
+/*Annexes */
+
+
+.ligne{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Segoe", arial;
+  font-size: 12px;
+  text-align: left;
+  padding: 5px 0 5px 0;
+}
+
+h4{
+  font-family: "Segoe", arial;
+}
+
+.fnote{
+  margin-top: 40px;
+}
+
+
+.main .p2 .alanote img{
+  display: flex;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.main .p2 .alanote h2{
+  margin-top: 0px;
+
+}
+
+.npalette{
+  font-family: "kaushan", arial;
+  font-size : 35px;
+  background: linear-gradient(150deg, #139b4c, #74fb50);
+  color: transparent;
+  -webkit-background-clip: text;
+  padding: 40px;
+  font-size: 50px;
+}
+
+.barre{
+  display: flex;
+  justify-content: space-between;
+}
+
+.barre img{
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
