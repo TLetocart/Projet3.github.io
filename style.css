@@ -20,19 +20,19 @@
 
 @font-face {
   font-family: "dancing";
-  src: url("fonts/dancing-script/dancing-script-regular.ttf");
+  src: url("fonts/Dancing-Script/dancing-script-regular.ttf");
   font-style: normal;
 }
 
 @font-face {
   font-family: "kaushan";
-  src: url("fonts/Kaushan-script-FontZillion/kaushanscript-regular.ttf");
+  src: url("fonts/Kaushan-Script-FontZillion/kaushanscript-regular.ttf");
   font-style: normal;
 }
 
 @font-face {
   font-family: "Segoe";
-  src: url("fonts/Segoe-print/Segoeprint.ttf");
+  src: url("fonts/Segoe-print/SegoePrint.ttf");
   font-style: normal;
 }
 
