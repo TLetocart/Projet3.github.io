@@ -455,6 +455,10 @@ button{
 
 /* Souligner */
 
+h4 span{
+  height: 2px;
+  display: block;
+}
 
 h4:hover span{
   background: black;
@@ -471,3 +475,15 @@ h4:hover span{
   to {width: 100%;}
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Zoom */
+
+.menu div:first-child:hover{
+  animation : zoom 0.8s forwards ease-in-out;
+}
+
+@keyframes zoom{
+  from {transform: scale(1);}
+  to {transform: scale(1.28);}
+}
