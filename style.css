@@ -49,14 +49,14 @@ body {
 header {
   background-color: #579c87;
 }
-header .oh {
+header.oh {
   text-align: center;
   display: flex;
   padding: 10px;
   justify-content: center;
 }
 
-h1{
+h1 a{
   font-family: "bmontserrat", arial;
   color: #fdcb46;
   font-size: 50px;
@@ -195,15 +195,15 @@ img {
 
 
 .menu + .deux{
-  background-color: #d1f8fa;
+  background-color: #f8f8f8;
 }
 
 .row .tres{
-  background-color: #e2fcfd;
+  background-color: #f9f9f9;
 }
 
 .menu + .quatre{
-  background-color: #f8fbfb;
+  background-color: #fefefe;
 }
 
 .note img{
@@ -219,7 +219,7 @@ img {
   display: flex;
   text-align: center;
   flex-direction: column;
-  background-color: #f8fbfb;
+  background-color: #fefefe;
   box-shadow: 0 0 10px #c8c8c8;
 }
 
@@ -231,7 +231,7 @@ img {
   display: flex;
   text-align: center;
   flex-direction: column;
-  background-color: #e2fcfd;
+  background-color: #f9f9f9;
   box-shadow: 0 0 10px #c8c8c8;
 }
 
@@ -261,7 +261,7 @@ img {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  background-color: #d1f8fa;
+  background-color: #f8f8f8;
   box-shadow: 0 0 10px #c8c8c8;
 }
 
@@ -291,11 +291,6 @@ header a{
   text-decoration: none;
 }
 
-@media screen and (max-width: 640px){
-  .main .menus .row {
-    flex-direction: column;
-  }
-}
 
 
 
@@ -489,6 +484,31 @@ h4:hover span{
 }
 
 @keyframes zoom{
-  from {transform: scale(1);}
-  to {transform: scale(1.28);}
+  from {
+    transform: scale(1); 
+    opacity : 1;
+  }
+  to {transform: scale(1.28); 
+    opacity : 0.5;
+  }
+}
+
+
+@media screen and (max-width: 640px){
+  .main .menus .row {
+    flex-direction: column;
+  }
+  .alanote, .achic, .apalette, .adelice{
+    height: auto;
+    width: 80%;
+  }
+  .ligne{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .main .menu{
+    padding: 0;
+  }
+
 }
