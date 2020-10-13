@@ -39,7 +39,7 @@
 @font-face {
   font-family: "bmontserrat";
   src: url("fonts/Montserrat/Montserrat-Bold.ttf");
-  font-style: bold;
+  font-style: normal;
 }
 
 body {
@@ -195,11 +195,11 @@ img {
 
 
 .menu + .deux{
-  background-color: #f8f8f8;
+  background-color: #FFF5FE;
 }
 
 .row .tres{
-  background-color: #f9f9f9;
+  background-color: #F9F9F9;
 }
 
 .menu + .quatre{
@@ -231,7 +231,7 @@ img {
   display: flex;
   text-align: center;
   flex-direction: column;
-  background-color: #f9f9f9;
+  background-color: #edefef;
   box-shadow: 0 0 10px #c8c8c8;
 }
 
@@ -261,7 +261,7 @@ img {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  background-color: #f8f8f8;
+  background-color: #FFF5FE;
   box-shadow: 0 0 10px #c8c8c8;
 }
 
